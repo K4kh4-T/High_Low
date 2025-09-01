@@ -125,9 +125,9 @@ export default class Gameplay extends Phaser.Scene {
 		streak.scaleY = 1;
 
 		// currency_hyve_xp_3d_1
-		const currency_hyve_xp_3d_1 = this.add.image(34, 34, "currency_hyve_xp_3d_1");
-		currency_hyve_xp_3d_1.scaleX = 0.09017107382001535;
-		currency_hyve_xp_3d_1.scaleY = 0.09017107382001535;
+		const currency_hyve_xp_3d_1 = this.add.image(34, 34, "UiAtlas", 8);
+		currency_hyve_xp_3d_1.scaleX = 0.3374317905217322;
+		currency_hyve_xp_3d_1.scaleY = 0.3374317905217322;
 
 		// XpText
 		const xpText = this.add.text(69, 32, "", {});

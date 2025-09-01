@@ -277,12 +277,13 @@
             "id": "dd27f687-9193-4f99-9d9f-ee9400758c11",
             "label": "currency_hyve_xp_3d_1",
             "texture": {
-                "key": "currency_hyve_xp_3d_1"
+                "key": "UiAtlas",
+                "frame": 8
             },
             "x": 34,
             "y": 34,
-            "scaleX": 0.09017107382001535,
-            "scaleY": 0.09017107382001535
+            "scaleX": 0.3374317905217322,
+            "scaleY": 0.3374317905217322
         },
         {
             "type": "Text",

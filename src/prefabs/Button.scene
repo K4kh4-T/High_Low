@@ -1,0 +1,70 @@
+{
+    "id": "fa1c5222-e4bf-4d82-a5d9-ae8e766bf303",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 340,
+        "borderHeight": 340
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "08ee699e-edd4-4655-b750-7df598e485c1",
+            "label": "container_1",
+            "allowAppendChildren": true,
+            "list": [
+                {
+                    "type": "NineSlice",
+                    "id": "23c86b98-b9c9-4b17-bc60-387a8cb06311",
+                    "label": "ButtonImage",
+                    "scope": "PUBLIC",
+                    "texture": {
+                        "key": "UiAtlas",
+                        "frame": 4
+                    },
+                    "leftWidth": 8,
+                    "rightWidth": 11,
+                    "topHeight": 25,
+                    "bottomHeight": 25,
+                    "width": 120,
+                    "height": 55
+                },
+                {
+                    "type": "Text",
+                    "id": "237e9629-0e04-4287-b0a0-5a051e835b6d",
+                    "label": "ButtonText",
+                    "scope": "CLASS",
+                    "y": -5,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "fontFamily": "Quantico-Regular",
+                    "fontSize": "19px"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "buttonTexture",
+            "label": "Property",
+            "tooltip": "",
+            "defValue": "{\"key\":\"UiAtlas\",\"frame\":4}",
+            "customDefinition": false,
+            "type": {
+                "id": "texture-config"
+            }
+        }
+    ]
+}

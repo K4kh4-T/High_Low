@@ -1,0 +1,127 @@
+{
+    "id": "e64fcfa5-161d-4da1-bf6b-8a559e860640",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 340,
+        "borderHeight": 340
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "6f960c60-d471-438c-a9de-b51e1c9c45c5",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "NineSlice",
+                    "id": "44baf029-abd0-4ff0-b977-093ff7aae2b1",
+                    "label": "GameOverPanel",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "UiAtlas",
+                        "frame": 7
+                    },
+                    "alpha": 0.7,
+                    "tintFill": true,
+                    "tint": "#000000",
+                    "leftWidth": 35,
+                    "rightWidth": 35,
+                    "topHeight": 35,
+                    "bottomHeight": 35,
+                    "width": 400,
+                    "height": 400
+                },
+                {
+                    "type": "NineSlice",
+                    "id": "744d56a7-f908-4749-a292-a6e8ce159114",
+                    "label": "window",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "UiAtlas",
+                        "frame": 7
+                    },
+                    "leftWidth": 30,
+                    "rightWidth": 30,
+                    "topHeight": 30,
+                    "bottomHeight": 30,
+                    "width": 300,
+                    "height": 200
+                },
+                {
+                    "prefabId": "fa1c5222-e4bf-4d82-a5d9-ae8e766bf303",
+                    "id": "e1bd8c20-2303-4589-b7cc-c112ee4f19c6",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible"
+                    ],
+                    "label": "RiskItAll",
+                    "scope": "CLASS",
+                    "x": 65,
+                    "y": 37,
+                    "visible": false
+                },
+                {
+                    "type": "Text",
+                    "id": "c424173d-3298-41db-9ea0-39eb10aee580",
+                    "label": "Header",
+                    "scope": "CLASS",
+                    "x": 2,
+                    "y": -31,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Player Wins!",
+                    "fixedWidth": 246,
+                    "fixedHeight": 55,
+                    "align": "center",
+                    "fontFamily": "Quantico-Regular",
+                    "fontSize": "30px"
+                },
+                {
+                    "type": "Text",
+                    "id": "815765d9-1afa-42af-ab3d-102cae45ef98",
+                    "label": "nextGameMessage",
+                    "scope": "CLASS",
+                    "y": 36,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "visible": false,
+                    "text": "next game 00:59:59",
+                    "fixedWidth": 246,
+                    "fixedHeight": 55,
+                    "align": "center",
+                    "fontFamily": "Quantico-Regular",
+                    "fontSize": "21px"
+                },
+                {
+                    "prefabId": "fa1c5222-e4bf-4d82-a5d9-ae8e766bf303",
+                    "id": "691a21f5-d759-4288-8ae8-6a70e38ead8a",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "visible",
+                        "buttonTexture"
+                    ],
+                    "label": "CashOut",
+                    "scope": "CLASS",
+                    "buttonTexture": "{\"key\":\"UiAtlas\",\"frame\":3}",
+                    "x": -58,
+                    "y": 37,
+                    "visible": false
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
